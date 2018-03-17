@@ -11,10 +11,6 @@
 
     <name>todo-app-java-on-azure</name>
     <description>A todo list application uses AngularJS and Azure DocumentDB Spring boot starter</description>
-         
-    <build>
-         <finalName>ROOT</finalName>
-    </build>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -67,6 +63,7 @@
     </dependencies>
 
     <build>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
