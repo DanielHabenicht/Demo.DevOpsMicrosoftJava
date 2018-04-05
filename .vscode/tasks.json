@@ -1,0 +1,14 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "set env",
+      "type": "shell",
+      "command":
+        "$DOCUMENTDB_URI='https://jugcamp.documents.azure.com:443/'; $DOCUMENTDB_KEY='MWN8pdJ2OHpMaKy9cGOiPPlYnjkiOEuff8ZnJbvE19gCBXEt98cTGpoSDrSmLKKV3RO1W8aOR4VRAuT6YXYW6w=='; $DOCUMENTDB_DBNAME='todoitems'; echo $DOCUMENTDB_DBNAME; mvn spring-boot:run",
+      "problemMatcher": []
+    }
+  ]
+}
